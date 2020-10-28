@@ -18,7 +18,7 @@ public class HttpClientDemo {
 
     public static void main(String[] args) throws IOException {
         GetExample example = new GetExample();
-        String response = example.run("https://raw.github.com/square/okhttp/master/README.md");
+        String response = example.run("http://localhost:8801");
         System.out.println(response);
     }
 }
