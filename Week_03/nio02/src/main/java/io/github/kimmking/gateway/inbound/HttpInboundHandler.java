@@ -48,8 +48,8 @@ public class HttpInboundHandler extends ChannelInboundHandlerAdapter {
                 handlerTest(fullRequest, ctx);
             }
 
-            HttpMethodRequestFilter methodHttpRequestFilter = new HttpMethodRequestFilter();
-            methodHttpRequestFilter.filter(fullRequest, ctx);
+//            HttpMethodRequestFilter methodHttpRequestFilter = new HttpMethodRequestFilter();
+//            methodHttpRequestFilter.filter(fullRequest, ctx);
             handler.handle(fullRequest, ctx);
         } catch(Exception e) {
             e.printStackTrace();

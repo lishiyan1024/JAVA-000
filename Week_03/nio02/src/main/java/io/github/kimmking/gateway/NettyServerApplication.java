@@ -1,6 +1,7 @@
 package io.github.kimmking.gateway;
 
 import io.github.kimmking.gateway.inbound.HttpInboundServer;
+import okhttp3.OkHttpClient;
 import org.apache.log4j.BasicConfigurator;
 
 public class NettyServerApplication {
