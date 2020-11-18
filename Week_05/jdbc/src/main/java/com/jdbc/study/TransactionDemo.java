@@ -57,7 +57,7 @@ public class TransactionDemo {
             st = conn.prepareStatement(sql1);
             st.executeUpdate();
 
-            int x = 1/0;
+            int x = 1 / 0;
 
             String sql2 = "update account set money=money+100 where name='b'";
             st = conn.prepareStatement(sql2);
