@@ -1,0 +1,23 @@
+#Default usage configuration
+spring:
+  profiles:
+    active: dev
+
+---
+
+#Development and configuration
+spring:
+  profiles: dev
+  datasource:
+    master:
+      jdbc-url: jdbc:mysql://localhost:3306/malldb
+      username: root
+      password:
+      driver-class-name: com.mysql.jdbc.Driver
+      type: com.alibaba.druid.pool.DruidDataSource
+    slave:
+      jdbc-url: jdbc:mysql://localhost:3316/malldb
+      username: root
+      password:
+      driver-class-name: com.mysql.jdbc.Driver
+      type: com.alibaba.druid.pool.DruidDataSource
