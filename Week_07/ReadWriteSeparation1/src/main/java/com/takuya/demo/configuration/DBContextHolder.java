@@ -1,7 +1,5 @@
 package com.takuya.demo.configuration;
 
-import com.takuya.demo.model.DBTypeEnum;
-
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class DBContextHolder {

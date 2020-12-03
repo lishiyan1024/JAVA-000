@@ -1,6 +1,5 @@
 package com.takuya.demo.configuration;
 
-import com.takuya.demo.model.DBTypeEnum;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.jdbc.DataSourceBuilder;
